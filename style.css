@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 60vw; */
+    gap: 30px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(78, 67, 226, 0.35) 0px 5px 15px;
+    
+}
+
+.products p {
+    list-style: none;
+    font-size: 13px;
+    /* gap: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+hr {
+    margin-top: -12px;
+}
+
+h5{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.featurescontainer, .bots  {
+    width: 160px;
+    padding: 10px;
+    background-color: rgb(218, 217, 217);
+    height: 200px;
+    border-radius: 9px;
+}
+
+.featurescontainer p, .bots p {
+    line-height: 1.3;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.products, .industries {
+    width: 160px;
+    height: 200px;
+}
+
+
+
+.industries p{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 5px;
+    font-size: 13px;
+}
+ 
+p span {
+    font-size: 13px;
+}
+
+.bots .btn {
+   font-size: 14px;
+   font-weight: 500;
+   color: #7f46eb;
+   line-height: 1.3;
+}
+
+/* .bots .material-symbols-outlined {
+    position: absolute;
+    bottom: 191px;
+} */
+
+.featurescontainer .btn {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #7f46eb;
+    /* line-height: 1.3; */
+}
+
+.btn svg {
+    height: 15px;
+    color: #7f46eb;
+}
