@@ -29,4 +29,9 @@ console.log(parseInt(str));
 
 ## Task 4 - Describe Project
 
-The CodePen clone project built with React and Firebase offers a familiar environment for developers to create, share, and collaborate on code snippets and projects. With Firebase handling authentication and real-time database functionalities, users experience seamless access control and data synchronization. Leveraging React ensures a responsive and dynamic user interface, facilitating code editing and collaboration. In summary, the project provides a user-friendly platform for developers to showcase their work and collaborate effectively within a modern coding environment.
+The CodePen clone project built with React and Firebase offers a familiar environment for developers to create, share, and collaborate on code snippets and projects. 
+With Firebase handling authentication and real-time database functionalities, users experience seamless access control and data synchronization. Leveraging React ensures a responsive
+and dynamic user interface, facilitating code editing and collaboration. In summary, the project provides a user-friendly platform for developers to showcase their work and 
+collaborate effectively within a modern coding environment.
+
+Link - https://code-pen-clone-nine.vercel.app/home/auth
